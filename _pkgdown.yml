@@ -1,0 +1,11 @@
+development:
+    mode: auto
+reference:
+    - title: "{grid} affine transformation utilities"
+      desc: "Utilities to use the {grid} affine transformation feature"
+      contents:
+        - transformationGrob
+figures:
+  dev: grDevices::png
+  dev.args:
+    type: "cairo"

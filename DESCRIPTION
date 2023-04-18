@@ -1,0 +1,15 @@
+Package: pkgbuild.pngdev
+Type: Package
+Title: A Minimal Package to Test Using PNG Device in 'pkgbuild'
+Version: 0.1.0-1
+Authors@R: c(person("Trevor L", "Davis", role = c("aut", "cre"),
+                    email = "trevor.l.davis@gmail.com",
+                    comment = c(ORCID = "0000-0001-6341-4639")))
+Description: A Minimal Package to Test Using PNG Device in 'pkgbuild'.
+License: MIT + file LICENSE
+Imports: grid
+Suggests: grDevices, pkgdown
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
