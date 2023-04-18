@@ -11,7 +11,7 @@
       type: "cairo"
   ```
 
-* The example uses the "affine transformation" feature introduced in R 4.2.  Function I'm using throws an error if
+* The example uses the "affine transformation" feature introduced in R 4.2 and I want to skip the example
   unless ``print(isTRUE(dev.capabilities()$transformations))``.
 * Also created a Dockerfile that 1) install development version of `{pgkdown}`, builds pkgdown documentation for this minimal package, and serves the documentation on port 3000:
 

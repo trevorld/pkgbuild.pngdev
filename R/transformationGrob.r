@@ -13,7 +13,9 @@
 #' @param gp A [grid::gpar()] object.
 #' @param vp A [grid::viewport()] object (or `NULL`).
 #' @examples
-#' if (getRversion() >= '4.2.0' && require("grid")) {
+#' if (getRversion() >= '4.2.0' &&
+#'     require("grid") &&
+#'     isTRUE(dev.capabilities()$transformations)) {
 #'   # Only works if active graphics device supports affine transformations
 #'   # such as `png(type="cairo")` on R 4.2+ but not `ragg::agg_png()`
 #'   grob <- grobTree(circleGrob(gp=gpar(fill="yellow", col="blue")),
